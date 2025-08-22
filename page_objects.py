@@ -84,4 +84,5 @@ class OrderFormPage(BasePage):
     def fill_comment(self, comment):
         self.driver.find_element(*self.commentField).send_keys(comment)
 
+    def click_finish_button(self):
 
