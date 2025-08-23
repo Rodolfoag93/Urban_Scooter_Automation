@@ -39,6 +39,9 @@ class OrderFormPage(BasePage):
     blackColor = (By.CSS_SELECTOR, 'input[id="black"]')
     grayColor = (By.CSS_SELECTOR, 'input[id="grey"]')
 
+    def click_cookie_button(self):
+        self.wait.until(EC.element_to_be_clickable(self.cookie_button)).click()
+
     def click_order_button(self):
         self.driver.find_element(*self.pedirButton).click()
 
