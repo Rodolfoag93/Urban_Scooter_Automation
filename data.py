@@ -1,5 +1,5 @@
-Urban_routes_URl =
-
+Urban_routes_URl = 'https://cnt-5cad347b-af97-45c2-80bd-13887db308c9.containerhub.tripleten-services.com/?lng=es'
+API_Url_Urban_Routes = 'https://cnt-5cad347b-af97-45c2-80bd-13887db308c9.containerhub.tripleten-services.com'
 firstName = 'julian'
 lastName = 'Mendez'
 address = '123 calle de prueba espacios varios para probar longitu del texto'
